@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 //mongoose.set('strictQuery', false); // Ajout de la ligne pour désactiver strictQuery
 
 mongoose
-  .connect("mongodb+srv://" + process.env.DB_USER_PASS + "@cluster0.1ytcwyb.mongodb.net/projet-resaux-social",
+  .connect("mongodb+srv://" + process.env.DB_USER_PASS + "@cluster0.qh2yjee.mongodb.net/projet-resaux-social",
    {
     useNewUrlParser: true,
     useUnifiedTopology: true,
